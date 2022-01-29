@@ -8,7 +8,7 @@
 </head>
 <body>
     <header class="page-header">
-        <img class="logo" src="#" alt="Логотип сайта Седона">
+        <a class="logo-main" href="index.html"><img class="logo-main" src="#" alt="Логотип сайта Седона"></a>
         <nav class="navigation">
             <ul class="navigation-list">
                 <li class="navigation-item">
@@ -33,7 +33,7 @@
                     </a>
                 </li>
                 <li class="navigation-item">
-                    <a class="navigation-link" href="#">ХОЧУ СЮДА!</a>
+                    <a class="navigation-link" href="#">Хочу сюда!</a>
                 </li>
               
             </ul>
@@ -106,7 +106,7 @@
                 </ol>
         </section>
         <section class="action">
-            <h2 class="action-title">Заинтересовались?</h2>
+            <p class="action-description">Заинтересовались?</p>
             <p class="action-description">Укажите предполагаемые даты поездки,
                 и мы покажем вам лучшие предложения гостиниц в Седоне
                 </p>
@@ -120,12 +120,13 @@
                 честное бойскаутское!
                 </p>
             <form class="subscription-form" action="http://echo.htmlacademy.ru" method="post">
+                <label class="visually-hidden">Введите почту</label>
                 <input class="field" placeholder="Ваш e-mail" type="email" name="subscription-email" id="subscription-email" required>
                 <button class="button subscription-button" type="submit">
                     <span class="subscription-button">Подписаться</span>
                 </button>
             </form>
-            <img class="subscription-image" src="#" alt="Фон какойто">    
+            <!img class="subscription-image" src="#" alt="Фон какойто">    
         </section>
         
         <section class="footer-social">
@@ -155,8 +156,8 @@
                     <a class="footer-contacts-addres-phone" href="tel:+78128121212">+7(812)812-12-12
                     </a>
                 </address>
-                <p class="about-link"><a class="htmlacademy-link" href="https://htmlacademy.ru">html <br> academy</a></p> 
             </section>
+            <p class="about-link"><a class="htmlacademy-link" href="https://htmlacademy.ru"><img class="about-link-logo-htmlakademy" src="#" alt="htmlacademy.ru"></a></p>
     </footer>
 </body>
 </html>
